@@ -55,9 +55,9 @@ class CmdInterface():
 
             if sel == '--help':
                 print()
-                print('-parse\tParse the current page')
+                print('-parse\tParse the page')
                 print('-push\tPush parsed data to database')
-                print('-show\tPrint parsed data')
+                print('-show\tPrint parsed data in terminal')
                 print('-graph\tDisplay graphing options')
                 print('-csv\tPush parsed data to csv')
                 print('-quit\tClose the application')
@@ -94,7 +94,7 @@ class CmdInterface():
             elif sel == '-graph':
                 self.graphDisplay()
 
-            elif sel == '-quit':\
+            elif sel == '-quit':
                 sys.exit()
 
             else:
