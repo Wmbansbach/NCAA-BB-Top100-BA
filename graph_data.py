@@ -64,10 +64,10 @@ class GraphData:
         plt.show()
 
     def getGradeData(self):
-        total_count, 
-        freshman,
-        sophmore,
-        junior,
+        total_count = 0 
+        freshman = 0
+        sophmore = 0
+        junior = 0
         senior = 0
         # Parse dict for player grades, tally each respectively
         for val in self.p_dict.values():
