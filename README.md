@@ -1,4 +1,4 @@
 # NCAA-BB-Top100-BA
-WebScraper grabbing NCAA Baseball Top100 Batting Average Statistics (and more!)
+WebScraper grabbing NCAA Baseball Top100 Batting Average Statistics
 #
-Patchwork app using BeautifulSoup4, sqlite3, pandas, and matplotlib
+App uses BeautifulSoup4, sqlite3, pandas, and matplotlib
